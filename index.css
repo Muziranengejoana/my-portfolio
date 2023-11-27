@@ -1,0 +1,89 @@
+.body{
+    background-color: rgb(240, 254, 254);
+    height:fit-content; 
+    flex-wrap: wrap;
+}
+.nav{
+    background-color: antiquewhite ;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+li{
+    list-style-type: none;
+    background-color: rgb(240, 254, 254);
+    padding: 6px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+a{
+  padding: 4px 8px; 
+  text-decoration: none;
+  color: black;
+  font-weight:800px;
+}
+.logo{
+    width: 50px;
+    height: 30px;
+}
+ul li{
+    display: inline;
+    justify-content: center;
+}
+.home-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    border-radius: 35px;
+}
+.myinfo{
+    background-color:white ;
+    margin-right: 40px;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.hello{
+    background-color:white;
+    width:600px ;
+    border-radius: 20px;
+    padding: 20px;
+}
+.frontend{
+    text-align: center;
+}
+.name{
+    padding-left: 15px;
+}
+.form{ 
+    margin-top: 90px;
+    padding-left: 30px;
+    background-color:rgb(245, 245, 245);
+    height: 230px;
+    width:255px ;
+    border-radius: 20px;
+}
+.phone{
+    margin-top:8px;
+    padding-top: 10px;
+    border-bottom: 40px;
+}
+.Email{
+    padding-top: 10px;
+    margin-top:8px;
+}
+.location{
+    padding-top: 10px;
+    margin-top:8px;
+}
+.download{
+    margin-left: 30px;
+    margin-top:15px;
+    background-color: rgb(237, 178, 69);
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-left: 30px;
+}
