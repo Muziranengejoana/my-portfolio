@@ -1,5 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    height:fit-content; 
+    background-color: #F2F7FC;
+
+}
 .body{
-    background-color: rgb(240, 254, 254);
+    background-color: #F2F7FC ;
     height:fit-content; 
     flex-wrap: wrap;
 }
@@ -11,7 +18,7 @@
 }
 li{
     list-style-type: none;
-    background-color: rgb(240, 254, 254);
+    background-color: #F2F7FC ;
     padding: 6px;
     border-radius: 8px;
     margin-right: 8px;
@@ -63,7 +70,7 @@ ul li{
 .form{ 
     margin-top: 70px;
     padding-left: 30px;
-    background-color:rgb(245, 245, 245);
+    background-color:#F2F7FC ;
     height: 250px;
     width:255px ;
     border-radius: 20px;
@@ -106,10 +113,47 @@ svg{
     margin-top: 60px;
 }
 .development{
-    background-color: aqua;
+    background-color:#FFEBD1;
     border-radius: 20px;
     width:250px ;
     height: 150px;
     padding: 10px;
     font-size: small;
+}
+.aboutMe{
+    background-color: white;
+    width:600px ;
+    border-radius: 20px;
+    padding: 30px;
+}
+.designing{
+    background-color:#F2F7FC ;
+    border-radius: 20px;
+    width:250px ;
+    height: 150px;
+    padding: 10px;
+    font-size: small;
+    margin-top: 15px;
+}
+.appdev{
+    background-color:#F2F7FC ;
+    border-radius: 20px;
+    width:250px ;
+    height: 150px;
+    padding: 10px;
+    font-size: small;
+}
+.SPA{
+    background-color:#FFEBD1;
+    border-radius: 20px;
+    width:250px ;
+    height: 150px;
+    padding: 10px;
+    font-size: small;
+    margin-top: 15px;
+}
+.whatido{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
 }
