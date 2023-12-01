@@ -10,7 +10,7 @@
     border: 1px solid blue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     background-color: #F2F7FC;
 }
@@ -64,17 +64,19 @@ ul li{
 }
 .hello{
     background-color:white;
-    width:600px ;
+    width:800px ;
+    height: 500px;
+    margin-left: 90px;
     border-radius: 20px;
-    padding: 100px;
+    padding: 50px;
     display: flex;
-}
-.frontend{
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
+
 .form{ 
-    margin-bottom: 5%;
+    margin-bottom: 6%;
     margin-left: 8px;
     padding-left: 30px;
     background-color:#F2F7FC ;
@@ -124,7 +126,7 @@ svg{
     border-radius: 20px;
     width:250px ;
     height: 150px;
-    padding: 10px;
+    padding: 30px;
     font-size: small;
 }
 .aboutMe{
@@ -139,16 +141,16 @@ svg{
     border-radius: 20px;
     width:250px ;
     height: 150px;
-    padding: 10px;
-    font-size: small;
-    margin-top: 15px;
+    padding: 30px;
+    font-size:medium;
+    margin-top: 40px;
 }
 .appdev{
     background-color:#F2F7FC ;
     border-radius: 20px;
     width:250px ;
     height: 150px;
-    padding: 10px;
+    padding: 30px;
     font-size: small;
 }
 .SPA{
@@ -156,12 +158,47 @@ svg{
     border-radius: 20px;
     width:250px ;
     height: 150px;
-    padding: 10px;
-    font-size: small;
-    margin-top: 15px;
+    padding: 30px;
+    font-size: medium;
+    margin-top: 40px;
 }
 .whatido{
     display: flex;
     padding: 20px;
-    justify-content: space-between;
+    justify-content:space-evenly;
+}
+button{
+    border-radius: 4px;
+    background-color: wheat;
+    padding-right: 10px;
+    margin-right: 8px;
+    margin-top: 8px;
+    height: 28px;
+}
+.skillspage{
+    width:800px ;
+    height: 500px;
+    margin-left: 90px;
+    border-radius: 20px;
+    border: 1px solid yellowgreen;
+}
+.upper{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    background-color: #F2F7FC;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    background-color:bisque;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card2{
+    background-color: #FFEBD1;
+    border-radius: 10px;
+    padding: 10px;
 }
